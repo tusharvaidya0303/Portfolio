@@ -1,37 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body class="m-4 p-0 bg-black">
     <div>
-        <nav class="h-20 bg-sky-500 flex " >
-            <div  class="flex w-full items-center justify-between m-2 ">
-            <div class="">Tushar Vaidya</div>
-            <ul class="list-none flex gap-5" >
-                <li> <a href="#learn">Home</a></li>
-                <li> <a href="#learn">Service</a></li>
-                <li> <a href="#learn">Interested</a></li>
-                <li> <a href="#learn">Portfolio</a></li>
-            </ul>
-            <button>Login</button>
+      <nav class="h-20 bg-black flex text-white">
+        <div class="flex w-full items-center justify-between mx-4">
+          <div class="flex justify-center items-center">
+            <h1 class="text-3xl font-bold mr-10">Tushar Vaidya</h1>
+            <div class="border-2 border-solid rounded-xl border-yellow-400 hover:border-white">
+              <i class="fa-solid fa-sun text-yellow-400 hover:text-white"></i>
+              <i class="fa-solid fa-moon text-yellow-400 hover:text-white"></i>
             </div>
-        </nav>
-        <div class="body-section">
-            <div class="left"></div>
-            <div class="right"></div>
+          </div>
+          <div class="flex gap-10">
+            <ul class="list-none flex gap-5 font-bold">
+              <li><a href="#learn" class="hover:text-yellow-400">Home</a></li>
+              <li>
+                <a href="#learn" class="hover:text-yellow-400">Service</a>
+              </li>
+              <li>
+                <a href="#learn" class="hover:text-yellow-400">Interested</a>
+              </li>
+              <li>
+                <a href="#learn" class="hover:text-yellow-400">Portfolio</a>
+              </li>
+              <li>
+                <a href="#learn" class="hover:text-yellow-400">Testimonial</a>
+              </li>
+            </ul>
+            <button
+              class="font-bold text-black bg-yellow-400 hover:bg-white hover:text-black p-1 px-2 rounded-xl"
+            >
+              Contact
+            </button>
+          </div>
         </div>
-        <div class="my-awsome">
-            <div class="my-awsome-left"></div>
-            <div class="my-awsome-right"></div>
+      </nav>
+      <div class="body-section bg-black flex justify-around">
+        <div class="left">
+          <p class="text-white text-7xl ml-4 mt-20">Hy! I Am</p>
+          <p class="text-yellow-400 text-7xl ml-4 mt-10 ">Tushar Vaidya</p>
+          <p class="text-white ml-5 mt-10">
+            Frontend Developer with high levelof experience in Web Designing &
+            Development. Producing the Quality work.
+          </p>
+          <button class="bg-yellow-400 font-bold text-3xl py-3 px-5 rounded-4xl m-8 hover:bg-white hover:text-black">Hire me</button>
         </div>
-        <div class="experience">
-
+        <div class="right h-80 w-80 mt-19 mr-2 ">
+            <img class="rounded-[50%]" src="Image 2025-04-19 at 12.49.19_14f985f8.jpg" alt="...">
         </div>
-        
+      </div>
+      <div class="my-awsome">
+        <div class="my-awsome-left"></div>
+        <div class="my-awsome-right"></div>
+      </div>
+      <div class="experience"></div>
     </div>
-</body>
+  </body>
 </html>

@@ -11,13 +11,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Portfolio</title>
   </head>
-  <body class="m-4 p-0 bg-black">
+  <body class="m-4 p-0 bg-black font-serif ...">
     <div>
       <nav class="h-20 bg-black flex text-white">
         <div class="flex w-full items-center justify-between mx-4">
           <div class="flex justify-center items-center">
             <h1 class="text-3xl font-bold mr-10">Tushar Vaidya</h1>
-            <div class="border-2 border-solid rounded-xl border-yellow-400 hover:border-white">
+            <div
+              class="border-2 border-solid rounded-xl border-yellow-400 hover:border-white cursor-pointer"
+            >
               <i class="fa-solid fa-sun text-yellow-400 hover:text-white"></i>
               <i class="fa-solid fa-moon text-yellow-400 hover:text-white"></i>
             </div>
@@ -39,7 +41,7 @@
               </li>
             </ul>
             <button
-              class="font-bold text-black bg-yellow-400 hover:bg-white hover:text-black p-1 px-2 rounded-xl"
+              class="font-bold text-black bg-yellow-400 hover:bg-white hover:text-black p-1 px-2 rounded-xl cursor-pointer"
             >
               Contact
             </button>
@@ -49,19 +51,63 @@
       <div class="body-section bg-black flex justify-around">
         <div class="left">
           <p class="text-white text-7xl ml-4 mt-20">Hy! I Am</p>
-          <p class="text-yellow-400 text-7xl ml-4 mt-10 ">Tushar Vaidya</p>
+          <p class="text-yellow-400 text-7xl ml-4 mt-10">Tushar Vaidya</p>
           <p class="text-white ml-5 mt-10">
             Frontend Developer with high levelof experience in Web Designing &
             Development. Producing the Quality work.
           </p>
-          <button class="bg-yellow-400 font-bold text-3xl py-3 px-5 rounded-4xl m-8 hover:bg-white hover:text-black">Hire me</button>
+          <button
+            class="bg-yellow-400 font-bold text-3xl py-3 px-5 rounded-4xl m-8 hover:bg-white hover:text-black cursor-pointer"
+          >
+            Hire me
+          </button>
+          <div class="h-20 w-60 m-8 text-yellow-400 text-5xl">
+            <i class="fa-brands fa-github hover:text-white cursor-pointer"></i>
+            <i class="fa-brands fa-linkedin-in hover:text-white cursor-pointer"></i>
+            <i class="fa-brands fa-instagram hover:text-white cursor-pointer"></i>
+          </div>
         </div>
-        <div class="right h-80 w-80 mt-19 mr-2 ">
-            <img class="rounded-[50%]" src="Image 2025-04-19 at 12.49.19_14f985f8.jpg" alt="...">
+        <div class="right h-80 w-80 mt-19 mr-2">
+          <img
+            class="rounded-[50%]"
+            src="Image 2025-04-19 at 12.49.19_14f985f8.jpg"
+            alt="..."
+          />
         </div>
       </div>
-      <div class="my-awsome">
-        <div class="my-awsome-left"></div>
+      <div class="my-awsome flex justify-around">
+        <div class="my-awsome-left">
+          <h1 class="text-white text-7xl ml-4 mt-20">My Awesome</h1>
+          <h2 class="text-yellow-400 text-7xl ml-4 mt-10">services</h2>
+          <p class="text-white ml-5 mt-10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            nihil incidunt commodi aperiam, eum temporibus architecto veritatis
+            nesciunt provident consectetur soluta ea illo porro possimus
+            eveniet. Dicta officiis minima odio.
+          </p>
+          <button
+            class="bg-yellow-400 font-bold text-3xl py-3 px-5 rounded-4xl m-8 hover:bg-white hover:text-black">
+           Download CV
+          </button>
+          <div class="flex justify-center items-center h-screen">
+            <div class="h-120 w-100 rounded-xl border-2 border-white shadow-xl/60">
+                <img
+                  class="overflow-hiden h-60 w-screen rounded-xl"
+                  src="card1.jpg"
+                  alt="..."
+                />
+                <div class="p-3">
+                  <h1 class="text-5xl text-bold">Fitness...</h1>
+                  <p class="mt-2">HTML5, CSS3, JavaScript, ReactJs, Nodejs, Express.Js, Mongodb</p>
+                  <button
+                    class="bg-sky-500 hover:bg-sky-700 shadow-xl/30 w-92 flex justify-center items-center mt-8 py-2 text-2xl text-red-100 rounded-xl"
+                  >
+                    Join Now
+                  </button>
+                </div>
+              </div>
+        </div>
+        </div>
         <div class="my-awsome-right"></div>
       </div>
       <div class="experience"></div>
